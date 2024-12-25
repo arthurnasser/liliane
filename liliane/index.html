@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liliane Lourenço - 30333</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #004080;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header-fixed {
+            background-color: #ffffff;
+            color: #004080;
+            padding: 15px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 70px;
+            box-sizing: border-box;
+            z-index: 1000;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .header-text {
+            margin-right: 20px;
+        }
+
+        .header-space {
+            height: 70px;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+            background-image: url('https://i.imgur.com/aea5Tk6.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 0;
+            padding-top: 30%;
+        }
+
+        .text-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 20px;
+            background-color: #ffffff;
+            color: #dc6c14;
+            flex-grow: 1;
+            border-radius: 15px;
+            margin: 20px;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+        }
+
+    .text-section .image-container {
+        order: 2;
+        margin-top: 10px;
+        width: 140%; /* Aumente o tamanho da largura da imagem */
+        max-width: 80%; /* Garante que a imagem ocupe toda a largura da tela */
+        text-align: center; /* Centraliza a imagem no container */
+    }
+        }
+
+    .text-section .image-container img {
+        width: 140%; /* Aumenta a largura da imagem */
+        max-width: 140%; /* Correspondente ao aumento de largura */
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
+}
+
+        .text-section .content {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .text-section h1 {
+            font-size: 44px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #dc6c14;
+        }
+
+        .text-section p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .footer-fixed {
+            background-color: #fff;
+            color: #004080;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1.5;
+            width: 100%;
+            box-sizing: border-box;
+            box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer-fixed p {
+            margin: 1px 0;
+            word-wrap: break-word;
+        }
+
+        @media (max-width: 1080px) {
+            .text-section {
+                flex-direction: column;
+                padding: 26px;
+            }
+
+            .text-section .content {
+                order: 1;
+                width: 100%;
+                margin-left: 0;
+                padding: 28px;
+            }
+
+            .text-section .image-container {
+                order: 2;
+                margin-top: 10px;
+                width: 120%; /* Garante que a imagem ocupe toda a largura da tela */
+                text-align: center; /* Centraliza a imagem no container */
+            }
+
+            .text-section .image-container img {
+                width: 120%;
+                max-width: 120%; /* Garante que a imagem ocupe toda a largura disponível */
+                margin: 0 auto; /* Centraliza a imagem horizontalmente */
+            }
+
+            .footer-fixed {
+                font-size: 18px;
+                padding: 8px;
+            }
+
+            .header-text {
+                font-size: 50px;
+                text-align: center;
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .header-fixed {
+                padding: 10px 15px;
+            }
+
+            .text-section h1 {
+                font-size: 74px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                color: #dc6c14;
+            }
+
+            .text-section p {
+                font-size: 54px;
+                line-height: 1.5;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-fixed">
+        <div class="header-text">Liliane Lourenço 30333</div>
+    </div>
+    <div class="header-space"></div>
+    <div class="banner"></div>
+    <div class="text-section">
+        <div class="content">
+            <h1>Quem é Liliane Lourenço?</h1>
+            <p>Liliane Lourenço é candidata a vereadora com o compromisso de transformar Niterói. Focada em educação, segurança e sustentabilidade, ela busca promover mudanças positivas para todos. Apoie Liliane e faça parte dessa transformação!</p>
+        </div>
+        <div class="image-container">
+            <img src="https://i.imgur.com/YB4WVyK.png" alt="Liliane Lourenço">
+        </div>
+    </div>
+    <div class="footer-fixed">
+        <p>ELEIÇÃO 2024 LILIANE LOURENÇO DE OLIVEIRA VEREADORA</p>
+        <p>RUA RUBEM RISENBERG, Nº 314, CASA - CEP: 24350-230 - PIRATININGA - NITERÓI - RJ</p>
+        <p>Liliane Lourenco de Oliveira - contato@lilianelourenco.com.br</p>
+        <p>2024 Liliane Lourenço - Todos os direitos reservados</p>
+    </div>
+</body>
+
+</html>
